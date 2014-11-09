@@ -2,15 +2,24 @@
 <html>
 <head>
     <title>Drag-Drop UI Test</title>
-    <style type="text/css" href=""></style>
+    <link rel="stylesheet" type="text/css" href="./mystyles/style.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css"/>
 </head>
 <body>
+    <div class="movable" draggable="true"></div>
+    <br>
+    <br>
+    <div class="container-box" droppable="true"></div>
+
 <script id="draggable-temp" type="text/template">
     <div class="movable"></div>
 </script>
-<script type="text/javascript">
-    <div class="movable"></div>
+
+<script type="text/template">
+    <div class="container-box"></div>
 </script>
-<script type="text/javascript" src=""></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="./scripts/script.js"></script>
+<script type="text/javascript" src="./js/bootstrap.js"></script>
 </body>
 </html>

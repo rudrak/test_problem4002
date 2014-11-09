@@ -1,0 +1,17 @@
+/*style for draggable boxes*/
+.movable{
+	height: 100px;
+	width: 100px;
+	background-color: #ffcc33;
+}
+
+/*Style for container-box*/
+.container-box{
+	height: 300px;
+	width: 300px;
+	background-color: #83b81a;
+}
+
+[draggable=true]{
+	cursor: move;
+}
